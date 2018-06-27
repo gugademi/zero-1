@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `album_charts`
+-- Estrutura da tabela `albums_charts`
 --
 
 CREATE TABLE `album_charts` (
@@ -96,7 +96,7 @@ CREATE TABLE `artist_yec` (
 -- Estrutura da tabela `friend`
 --
 
-CREATE TABLE `friend` (
+CREATE TABLE `friends` (
   `id` int(11) NOT NULL,
   `iduser_one` int(11) NOT NULL,
   `iduser_two` int(11) NOT NULL,
@@ -221,7 +221,7 @@ CREATE TABLE `user` (
 -- Estrutura da tabela `week`
 --
 
-CREATE TABLE `week` (
+CREATE TABLE `weeks` (
   `id` int(11) NOT NULL,
   `iduser` int(11) NOT NULL,
   `week` int(11) NOT NULL,
